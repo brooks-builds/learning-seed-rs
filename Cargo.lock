@@ -285,6 +285,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "e2abad23fbc42b3700f2f279844dc832adb2b2eb069b2df918f455c4e18cc646"
 
 [[package]]
+name = "learning_seed_rs"
+version = "0.1.0"
+dependencies = [
+ "seed",
+ "wasm-bindgen-test",
+]
+
+[[package]]
 name = "libc"
 version = "0.2.92"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -348,14 +356,6 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "a152013215dca273577e18d2bf00fa862b89b24169fb78c4c95aeb07992c9cec"
 dependencies = [
  "unicode-xid",
-]
-
-[[package]]
-name = "proj3"
-version = "0.1.0"
-dependencies = [
- "seed",
- "wasm-bindgen-test",
 ]
 
 [[package]]

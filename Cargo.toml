@@ -1,8 +1,8 @@
 [package]
 version = "0.1.0"
-name = "{{project-name}}"
+name = "learning_seed_rs"
 repository = "https://github.com/seed-rs/seed-quickstart"
-authors = ["{{authors}}"]
+authors = ["Brookzerker"]
 description = "App Description"
 categories = ["category"]
 license = "MIT"
@@ -10,7 +10,7 @@ readme = "./README.md"
 edition = "2018"
 
 [lib]
-crate-type = ["cdylib"]
+crate-type = ["cdylib", "rlib"]
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.18"
